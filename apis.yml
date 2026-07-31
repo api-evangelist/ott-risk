@@ -1,7 +1,26 @@
 aid: ott-risk
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ott-risk.png
 name: Ott Risk
-description: Ott Risk is a company surfaced as a portfolio company of anthemis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: OTT Risk is a UK- and US-based insurtech Managing General Agent (MGA) building
+  parametric, non-damage business interruption (NDBI) insurance for the digital economy.
+  Its revenue-protection cover targets online marketplaces, gig and freelance workers, and
+  enterprises, paying out against economic indices and industry metrics rather than physical-damage
+  claims. OTT Risk is a portfolio company of Anthemis and an alumnus of the Lloyd's Lab
+  Accelerator (Cohort 9, 2022), with underwriting capacity from Apollo ibott Syndicate 1971.
+  As of this enrichment pass the company publishes no public developer portal, documentation,
+  or API surface, and its former ottrisk.com domain now resolves to a domain-sale page,
+  indicating the company may be dormant.
 url: https://raw.githubusercontent.com/api-evangelist/ott-risk/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +30,26 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Insurance
+- Insurtech
+- Parametric Insurance
+- Business Interruption
+- Risk Management
+- MGA
 apis: []
+common:
+- type: LinkedIn
+  url: https://www.linkedin.com/company/ottrsk/about/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
